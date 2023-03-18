@@ -1,0 +1,130 @@
+h1 {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 40px;  
+  margin: 20px;
+}
+
+h2, .color-hex, .color-label {
+  font-family: 'Unbounded', cursive;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #efd9ca;    
+  }
+  
+span {
+  font-family: 'Unbounded', cursive;
+  background-image: url(https://xd.adobe.com/ideas/wp-content/uploads/2019/10/hover-blue-7.png);
+  background-position: 0.7em;
+  background-repeat: repeat-x;
+  text-decoration: none;
+  color: #ff9424;
+}
+  .container {
+    border: 2px solid #a2a2a6;
+    background-color: white;
+    box-shadow: 10px 5px 5px grey;
+    padding: 10px;
+    margin: 20px ;
+  }
+  
+  .color-container {
+    width: 100%;
+    display: flex;
+  }
+  
+  .color-panel {
+    display: inline-block;
+    text-align: center;
+    margin: 30px 10px;
+    min-height: 100px;
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  .dark-shade {
+    background-color: #0b1211;
+    color: #fff;
+  }
+  
+  .orange {
+    background-color: #ff9424;
+    color: #000;
+  }
+  
+  .clear-blue {
+    background-color: #9ce1e3;
+  }
+  
+  .blue {
+    background-color: #42c1e4;
+  }
+  
+.color-explanation {
+  display: inline-block;
+  text-align: left;
+  margin: 30px 10px;
+  min-height: 100px;
+  width: 200px;  
+}
+
+.font-container {
+  display: flex;
+}
+
+.font-panel {
+  width: 45%;
+  display: inline-block;
+  margin-left: 10px;
+  }
+  
+  .font-label {
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  
+  .regular {
+    font-style: normal;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
+  
+  .tilt-warp {
+    font-family: 'Tilt Warp', cursive;
+  }
+  
+  .hanken-grotesk {
+    font-family: 'Hanken Grotesk', sans-serif;
+  }
+  
+  .roboto {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .text-panel h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Tilt Warp', cursive;
+  }
+  
+  .text-panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+  }
+  
+  .text-panel p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+
